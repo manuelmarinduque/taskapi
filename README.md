@@ -13,6 +13,11 @@ python manage.py makemigrations
 python manage.py createsuperuser
 ```
 
+## Ejecutar pruebas unitarias
+```cmd
+python manage.py test
+```
+
 # Variables de entornos
 Para que el proyecto lea las variables de entorno se debe crear un archivo llamado _.env_ e incluir las siguientes variables:
 
